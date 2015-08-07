@@ -1,0 +1,78 @@
+.mini-slideshow {
+  z-index: 11; }
+
+.tab_gallery .prevnext {
+  color: #FFF;
+  text-shadow: 0px 0px 3px #000;
+  font-size: 40; }
+  .tab_gallery .prevnext.btn_prev {
+    left: 10; }
+  .tab_gallery .prevnext.btn_next {
+    right: 10; }
+.tab_gallery .slides {
+  width: 300px;
+  height: 534;
+  top: 66; }
+  .tab_gallery .slides .slide {
+    width: 300px;
+    height: 534;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: red;
+    background-position: 0 -66; }
+    .tab_gallery .slides .slide img {
+      top: 0;
+      width: 300;
+      height: 209; }
+    .tab_gallery .slides .slide .text_slide {
+      top: 219 !important;
+      margin-left: 10;
+      font-size: 11px;
+      text-transform: uppercase; }
+    .tab_gallery .slides .slide .slide_infowrapper {
+      top: 236;
+      width: 290;
+      height: 198;
+      overflow: auto;
+      margin: 0 0 0 10;
+      padding: 0; }
+      .tab_gallery .slides .slide .slide_infowrapper .text_title {
+        margin: 0;
+        margin-right: 10px;
+        padding: 10px 0 0 0;
+        font-size: 15px;
+        font-weight: 700; }
+      .tab_gallery .slides .slide .slide_infowrapper .text_info {
+        margin: 7px 20px 0 0;
+        padding: 0;
+        font-size: 13px;
+        line-height: 135%; }
+        .tab_gallery .slides .slide .slide_infowrapper .text_info a {
+          text-decoration: none !important;
+          color: #004a99; }
+      .tab_gallery .slides .slide .slide_infowrapper .text_attr {
+        margin: 7px 0 0 0;
+        padding: 0;
+        text-decoration: underline;
+        color: #3E61AB;
+        font-size: 14px;
+        line-height: 120%; }
+  .tab_gallery .slides .slide_left {
+    left: -300px; }
+  .tab_gallery .slides .slide_right {
+    left: 300px; }
+  .tab_gallery .slides .forcetop {
+    z-index: 20; }
+.tab_gallery .wrapper {
+  width: 300px;
+  height: 220px;
+  top: 71px;
+  z-index: 30; }
+  .tab_gallery .wrapper .btn {
+    color: white;
+    top: 84.5;
+    text-shadow: 0px 0px 3px #000;
+    font-size: 40; }
+  .tab_gallery .wrapper .disabled {
+    opacity: 0.3; }
