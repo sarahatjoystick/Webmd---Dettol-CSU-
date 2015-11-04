@@ -99,13 +99,13 @@ module_facebook.prototype.toggle = function(bool) {
     if(bool)
     {
         addClass(document.getElementById('tab_'+this.num), 'active');
-        Enabler.counter('Open module_facebook Module', true);
+        //Enabler.counter('Open module_facebook Module', true);
         EventBus.dispatch("KILL_SLIDESHOW", window);
     }
     else
     {
         removeClass(document.getElementById('tab_'+this.num), 'active');
-        Enabler.counter('Close module_facebook Module', true);
+        //Enabler.counter('Close module_facebook Module', true);
     }
 };
 
