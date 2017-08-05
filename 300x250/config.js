@@ -28,27 +28,27 @@ var config = {
 				[
 					"i_gallery_slide1.jpg",
 					"Home hygiene hotspots",
-					"Kitchen counters and doorknobs are obvious germ hotspots, but where else do germs hide? With over 80 years in health promotion, Dettol has a cleaning solution for every kind of surface you can think of, and for ones you haven't yet. "
+					"Kitchen counters and doorknobs are obvious hotspots for germs, but where else do germs hide? With over 80 years in disinfection, Dettol has a cleaning solution for every kind of surface you can think of, and for ones you haven't yet. "
 				],
 				[
 					"i_gallery_slide2.jpg",
 					"Cutting Boards",
-					"Cutting boards can easily become contaminated with bacteria from raw food. Use <a href='http://www.boots.com/en/Dettol-Antibacterial-Surface-Cleanser-500ml_920375' class='link' target='_blank'>Dettol Antibacterial Surface Cleanser</a>, which kills 99.9% of bacteria, including E. coli and the flu virus, to disinfect cutting boards after use."
+					"Cutting boards can easily become contaminated with bacteria from raw food. Use <span id='tips_link_2' class='link btn'>Dettol Antibacterial Surface Cleanser</span>, which kills 99.9% of bacteria, including E. coli and the flu virus, to disinfect cutting boards after use."
 				],
 				[
 					"i_gallery_slide3.jpg",
 					"Gym bag",
-					"You could be bringing home germs from the gym. Disinfect your gym bag with <a href='http://www.boots.com/en/Dettol-Disinfectant-Spray-400ml_920385' class='link' target='_blank'>Dettol Disinfectant Spray</a> to prevent the spread of harmful bacteria."
+					"You could be bringing home germs from the gym. Disinfect your gym bag with <span id='tips_link_3' class='link btn'>Dettol Disinfectant Spray</span> to prevent the spread of harmful bacteria."
 				],
 				[
 					"i_gallery_slide4.jpg",
 					"Stack of towels",
-					"Towels can harbour germs if they remain damp. Add <a href='http://www.dettol.co.uk/products/laundry-sanitiser/dettol-antibacterial-laundry-cleanser' class='link' target='_blank'>Dettol Antibacterial Laundry Cleanser</a> to your wash to kill 99.9% of bacteria, even at 30&deg;C."
+					"Towels can harbour germs if they remain damp. Add <span id='tips_link_4' class='link btn'>Dettol Antibacterial Laundry Cleanser</span> to your wash to kill 99.9% of bacteria, even at 30&deg;C."
 				],
 				[
 					"i_gallery_slide5.jpg",
 					"High chair",
-					"Keep your baby's dining area disease-free by wiping it down daily after meals with <a href='http://www.boots.com/en/Dettol-Antibacterial-Surface-Wipes-1-Pack_920389' class='link' target='_blank'>Dettol Antibacterial Cleansing Surface Wipes</a>. They are gentle enough to use around baby equipment, but still kill 99.9% of harmful bacteria such as MRSA and salmonella."
+					"Keep your baby's dining area bacteria-free by wiping it down after meals with <span id='tips_link_5' class='link btn'>Dettol Antibacterial Cleansing Surface Wipes</span>. They are gentle enough to use around baby equipment, but still kill 99.9% of harmful bacteria such as MRSA and salmonella."
 				]
 			]
 		},
@@ -66,7 +66,7 @@ var config = {
 				[
 					"i_gallery2_slide2.jpg",
 					"Dettol Antibacterial Cleansing Surface Wipes",
-					"Convenient and easy to use format, Antibacterial Cleansing Surface Wipes are ideal for fast and hygienic cleaning and suitable for use around baby equipment and food preparation areas. The non-bleach wipes also kill E. coli, salmonella, MRSA and the flu virus (H1N1). "
+					"Convenient and easy to use format, Antibacterial Cleansing Surface Wipes are ideal for fast and hygienic cleaning and suitable for use around baby equipment and food preparation areas. The non-bleach wipes also kill E. coli, salmonella, MRSA and the flu virus (H1N1). "
 				],
 				[
 					"i_gallery2_slide3.jpg",

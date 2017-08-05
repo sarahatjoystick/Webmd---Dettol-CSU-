@@ -34,7 +34,7 @@ function backup() {
     
     var backup = document.getElementById('backup')
         backup.src = getURL(config.global.intro.bg);
-        backup.onclick = function(e) { Enabler.exitOverride('Background', config.global.intro.exit); }
+        backup.onclick = function(e) { Enabler.exit('Background'); }
 }
 
 function loadModules() {
@@ -67,18 +67,18 @@ function adStart() {
     var backup = document.getElementById('backup')
         backup.src = getURL(config.global.intro.bg);
         backup.onclick = function(e) {
-            Enabler.exitOverride('Background', config.global.intro.exit);
+            Enabler.exit('Background');
         }
 
     var header = document.getElementById('header');
         header.src = getURL(config.global.header.bg);
         header.onclick = function(e) {
-            Enabler.exitOverride('Header', config.global.header.exit);
+            Enabler.exit('Header');
         }
 
     var subheader = document.getElementById('subheader');
         subheader.onclick = function(e) {
-            Enabler.exitOverride('Header', config.global.header.exit);
+            Enabler.exit('Header');
         }
 
     // var footer = document.getElementById('footer').getElementsByClassName('background')[0];

@@ -127,11 +127,11 @@ module_gallery2.prototype.createTab = function() {
 
     // SETUP LISTENERS
     bg.onclick = function(e) {
-        Enabler.exitOverride('Background', config.global.intro.exit);
+        Enabler.exit('Background');
     }
 
     header.onclick = function(e) {
-        Enabler.exitOverride('Header', config.global.header.exit);
+        Enabler.exit('Header');
     }
 
     close.onclick = function(e){

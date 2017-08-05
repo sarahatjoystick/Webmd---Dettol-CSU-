@@ -48,7 +48,7 @@
         padding: 0;
         font-size: 13px;
         line-height: 135%; }
-        .tab_gallery .slides .slide .slide_infowrapper .text_info a {
+        .tab_gallery .slides .slide .slide_infowrapper .text_info span {
           text-decoration: none !important;
           color: #004a99; }
       .tab_gallery .slides .slide .slide_infowrapper .text_attr {

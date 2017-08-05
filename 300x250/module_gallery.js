@@ -1,6 +1,6 @@
 // GALLERY SUB-ROUTINES
 
-preloadScripts.push('style_gallery.css');
+preloadScripts.push('style_gallery2.css');
 
 function module_gallery(obj, num) {
     this.obj = obj;
@@ -127,11 +127,11 @@ module_gallery.prototype.createTab = function() {
 
     // SETUP LISTENERS
     bg.onclick = function(e) {
-        Enabler.exitOverride('Background', config.global.intro.exit);
+        Enabler.exit('Background');
     }
 
     header.onclick = function(e) {
-        Enabler.exitOverride('Header', config.global.header.exit);
+        Enabler.exit('Header');
     }
 
     close.onclick = function(e){
@@ -265,7 +265,7 @@ module_gallery.prototype.loadSlide = function(num, bool, arg)
 
         var img = document.createElement('img');
             img.src = getURL(this.gallery[this.currentSlide][0]);
-            img.className = 'abs';
+            img.className = 'abs adj';
             slide.appendChild(img);
 
         // if( gallery[this.currentSlide].length === 1 )
@@ -340,7 +340,8 @@ module_gallery.prototype.loadSlide = function(num, bool, arg)
         if(link)
         {
             link.onclick = function() {
-                Enabler.counter('Tips Link', true)
+                //Enabler.counter('Tips Link', true)
+                Enabler.exit("GALLERY_TIPS_" + this.id.charAt(10) + "_CLICK");
             }
         }
     }

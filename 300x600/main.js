@@ -14,6 +14,8 @@ var listeners = {
     gallery: []
 }
 
+var pixel;
+
 document.getElementById('border').style.border = '1px solid '+config.global.border;
 
 function init() {
@@ -34,7 +36,7 @@ function backup() {
     
     var backup = document.getElementById('backup')
         backup.src = getURL(config.global.intro.bg);
-        backup.onclick = function(e) { Enabler.exitOverride('Background', config.global.intro.exit); }
+        backup.onclick = function(e) { Enabler.exit('Background'); }
 }
 
 function loadModules() {
@@ -64,28 +66,35 @@ function loadSecondaryScripts() {
 
 function adStart() {
 
+    var axel = Math.random() + "";
+    var num = axel * 1000000000000000000;
+
+    pixel = document.createElement('ci-studio-pixelloader');
+    pixel.setAttribute('eventtype', 'auto');
+    pixel.setAttribute('url', 'http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=tf&c=19&mc=imp&pli=19301111&PluID=0&ord=' + num + '&rtu=-1');
+
     var backup = document.getElementById('backup')
         backup.src = getURL(config.global.intro.bg);
         backup.onclick = function(e) {
-            Enabler.exitOverride('Background', config.global.intro.exit);
+            Enabler.exit('Background');
         }
 
     var header = document.getElementById('header');
         header.src = getURL(config.global.header.bg);
         header.onclick = function(e) {
-            Enabler.exitOverride('Header', config.global.header.exit);
+            Enabler.exit('Header');
         }
 
     var subheader = document.getElementById('subheader');
         subheader.onclick = function(e) {
-            Enabler.exitOverride('Header', config.global.header.exit);
+            Enabler.exit('Header');
         }
 
     var footer = document.getElementById('footer').getElementsByClassName('background')[0];
         footer.src = getURL(config.global.footer.bg);
         footer.style.border = '1px solid '+config.global.border;
         footer.onclick = function(e) {
-            Enabler.exitOverride('Footer', config.global.footer.exit);
+            Enabler.exit('Footer');
         }
     
     document.getElementById('container').style.opacity = 1;

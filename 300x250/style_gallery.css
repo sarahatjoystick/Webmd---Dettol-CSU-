@@ -29,8 +29,9 @@
     background-position: 0 -65; }
     .tab_gallery .slides .slide img {
       top: 0;
-      width: 300;
-      height: 185; }
+    width: 236px;
+    height: 141px;
+    left: 34px; }
     .tab_gallery .slides .slide .slide_infowrapper {
       top: 115;
       width: 300;
@@ -38,7 +39,7 @@
       overflow: auto;
       margin: 0;
       padding: 0;
-      background-color: rgba(255, 255, 255, 0.8); }
+      background-color: rgba(255, 255, 255, 1); }
       .tab_gallery .slides .slide .slide_infowrapper .text_slide {
         margin: 5 10 0 10;
         font-size: 11px;
@@ -51,7 +52,7 @@
         margin: 5 10 20 10;
         font-size: 13px;
         line-height: 135%; }
-        .tab_gallery .slides .slide .slide_infowrapper .text_info a {
+        .tab_gallery .slides .slide .slide_infowrapper .text_info span {
           text-decoration: none !important;
           color: #004a99; }
       .tab_gallery .slides .slide .slide_infowrapper .text_attr {

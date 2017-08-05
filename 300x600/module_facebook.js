@@ -43,7 +43,7 @@ module_facebook.prototype.createModule = function() {
     // SETUP LISTENERS
     container.onclick = function(e) {
         //self.toggle(1);
-        Enabler.exitOverride('Facebook', self.obj.exit);
+        Enabler.exit('Facebook');
     }
 
 }
@@ -83,11 +83,11 @@ module_facebook.prototype.createTab = function() {
 
     // SETUP LISTENERS
     bg.onclick = function(e) {
-        Enabler.exitOverride('Background', config.global.intro.exit);
+        Enabler.exit('Background');
     }
 
     header.onclick = function(e) {
-        Enabler.exitOverride('Header', config.global.header.exit);
+        Enabler.exit('Header');
     }
 
     close.onclick = function(e){
